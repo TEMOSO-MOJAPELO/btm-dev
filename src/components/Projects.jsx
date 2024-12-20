@@ -58,6 +58,9 @@ const Projects = () => {
                         Portfolio React App
                     </span>
                     <div className='pt-6 text-center'>
+                        <a href="https://temoso-mojapelo.github.io/my-portfolio/">
+                            <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
+                        </a>
                         <a href="https://github.com/TEMOSO-MOJAPELO/portfolio-react-app.git">
                             <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                         </a>
