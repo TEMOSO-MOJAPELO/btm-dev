@@ -26,10 +26,10 @@ const Projects = () => {
                             Predict Express App
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://predict-0tf4.onrender.com/">
+                            <a href="https://predict-0tf4.onrender.com/" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/predict.git">
+                            <a href="https://github.com/TEMOSO-MOJAPELO/predict.git" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -43,30 +43,14 @@ const Projects = () => {
                             Thuto VT UI
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/ThutoUI.git">
+                            <a href="https://github.com/TEMOSO-MOJAPELO/ThutoUI.git" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>View</button>
                             </a>
                             
                         </div>
                     </div>
                 </div> 
-                <div style={{backgroundImage: `url(${firstPortfolio})`}} className='shadow-2xl shadow-[#4F4F4F] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                {/*Hover Effect */} 
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-[#E1D7C2] tracking-wider'>
-                        Portfolio React App
-                    </span>
-                    <div className='pt-6 text-center'>
-                        <a href="https://temoso-mojapelo.github.io/my-portfolio/">
-                            <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
-                        </a>
-                        <a href="https://github.com/TEMOSO-MOJAPELO/portfolio-react-app.git">
-                            <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
-                        </a>
-                    </div>
-                </div>
-                </div>
+                
                 <div style={{backgroundImage: `url(${WMP})`}} className='shadow-2xl shadow-[#4F4F4F] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/*Hover Effect */} 
@@ -75,10 +59,10 @@ const Projects = () => {
                             Web Music Player
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://temoso-mojapelo.github.io/Web-Music-Player/">
+                            <a href="https://temoso-mojapelo.github.io/Web-Music-Player/" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Web_Music_Player.git">
+                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Web_Music_Player.git" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -92,10 +76,11 @@ const Projects = () => {
                             Book Library
                         </span>
                         <div className='pt-6 text-center'>
-                            <a href="https://temoso-mojapelo.github.io/Book-Library-App/">
-                                <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Project3_Book_Library.git">
+                            <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>
+                                <a href="https://temoso-mojapelo.github.io/Book-Library-App/" target='blank'> Demo</a>
+                            </button>
+
+                            <a href="https://github.com/TEMOSO-MOJAPELO/HexSoftwares_Project3_Book_Library.git" target='blank'>
                                 <button className='text-center rounded-xl px-8 py-3 m-2 bg-[#E9DFCE] text-[#D8843B] font-bold text-lg'>Code</button>
                             </a>
                         </div>
