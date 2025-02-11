@@ -3,7 +3,7 @@ import PredictApp from '../assets/Predict-App2.png'
 import ThutoUi from '../assets/Login@2x.png'
 import WMP from '../assets/Web_Music_Player.png'
 import BookLibrary from '../assets/Personal_Book_Library.png'
-import firstPortfolio from '../assets/FirstPortfolio.png'
+
 
 
 const Projects = () => {
